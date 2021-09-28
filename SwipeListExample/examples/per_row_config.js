@@ -11,7 +11,7 @@ import { SwipeListView, SwipeRow } from 'react-native-swipe-list-view';
 
 export default function PerRowConfig() {
     const [listData, setListData] = useState(
-        Array(20)
+        Array(500)
             .fill('')
             .map((_, i) => ({ key: `${i}`, text: `item #${i}` }))
     );
@@ -65,7 +65,10 @@ export default function PerRowConfig() {
 
     return (
         <View style={styles.container}>
-            <SwipeListView data={listData} renderItem={renderItem} />
+            <SwipeListView 
+                
+                data={listData} 
+                renderItem={renderItem} />
         </View>
     );
 }

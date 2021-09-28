@@ -8,8 +8,8 @@ import {
     TouchableHighlight,
     View,
 } from 'react-native';
-
-import SwipeListView from '../SwipeListView';
+///
+import SwipeListView  from 'react-native-swipe-list-view';//'../SwipeListView';
 
 export default function Actions() {
     const [listData, setListData] = useState(

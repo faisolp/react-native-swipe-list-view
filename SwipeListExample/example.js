@@ -15,6 +15,7 @@ import SwipeToDelete from './examples/swipe_to_delete';
 import SwipeValueBasedUi from './examples/swipe_value_based_ui';
 import Actions from './examples/actions';
 import CloseRowManually from './examples/close_row_manually';
+import Swipeout from './examples/swipeout'
 
 const componentMap = {
     Basic,
@@ -25,6 +26,7 @@ const componentMap = {
     SwipeValueBasedUi,
     Actions,
     CloseRowManually,
+    Swipeout,
 };
 
 export default function App() {

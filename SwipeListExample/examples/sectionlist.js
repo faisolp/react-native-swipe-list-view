@@ -7,7 +7,7 @@ import {
     View,
 } from 'react-native';
 
-import { SwipeListView } from 'react-native-swipe-list-view';
+import { SwipeListView } from'react-native-swipe-list-view';
 
 export default function SectionList() {
     const [listData, setListData] = useState(
